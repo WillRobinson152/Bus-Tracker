@@ -1,4 +1,4 @@
-// This array contains the coordinates for all bus stops between MIT and Harvard
+// Coordinates for all bus stops between MIT and Harvard
 const busStops = [
   [-71.093729, 42.359244],
   [-71.094915, 42.360175],
@@ -14,10 +14,10 @@ const busStops = [
   [-71.118625, 42.374863],
 ];
 
-// TODO: add your own access token
+// Here is where you must add your access token
 mapboxgl.accessToken = '';
 
-// This is the map instance
+// Map instance
 let map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/mapbox/streets-v11',
@@ -25,12 +25,12 @@ let map = new mapboxgl.Map({
   zoom: 14,
 });
 
-// TODO: add a marker to the map at the first coordinates in the array busStops. The marker variable should be named "marker"
+// The first coordinates in the array busStops
 let marker = new mapboxgl.Marker().setLngLat([-71.092761, 42.357575]).addTo(map);
 // counter here represents the index of the current bus stop
 let counter = 0;
 function move() {
-  // TODO: move the marker on the map every 1000ms. Use the function marker.setLngLat() to update the marker coordinates
+  // Moves the marker on the map every second
   setTimeout(() => {
     if (counter >= busStops.length) return;
     marker.setLngLat(busStops[counter]);
@@ -39,7 +39,7 @@ function move() {
   }, 1000);
 }
 
-// Do not edit code past this point
+
 if (typeof module !== 'undefined') {
   module.exports = { move };
 }

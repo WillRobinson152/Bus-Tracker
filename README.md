@@ -1,4 +1,4 @@
-# Bus-Tracker
+# Bus Tracker
 
 This was an assignment I completed for the MITxPro Full Stack Developer program. This web page uses an API to source real-time data of the Boston MBTA buses.
 

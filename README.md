@@ -3,7 +3,7 @@
 This was an assignment I completed for the MITxPro Full Stack Developer program. This web page uses an API to source real-time data of the Boston MBTA buses.
 
 # Usage
-Download or clone the files in this repository to run locally.
+Download or clone the files in this repository to run locally. You will also need to get an access token from Mapbox by creating a Mapbox account.
 
 # Future Improvements
 

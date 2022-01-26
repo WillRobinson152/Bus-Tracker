@@ -1,6 +1,6 @@
 # Bus-Tracker
 
-This was an assignment I completed for the MITxPro Full Stack Developer program. The result is a webpage with a button that create a PacMan that bounces around the browser at its own pace by using array methods and manipulating the DOM. 
+This was an assignment I completed for the MITxPro Full Stack Developer program. This web page uses an API to source real-time data of the Boston MBTA buses.
 
 # Usage
 Download or clone the files in this repository to run locally.
